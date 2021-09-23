@@ -1,10 +1,10 @@
-const modalLink = document.querySelectorAll('.more');
+const modalBtns = document.querySelectorAll('.more');
 const modal = document.querySelector('.modal');
 
 console.log(modal);
 
-modalLink.forEach(link => {
-    link.addEventListener('click', () => {
+modalBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
         modal.classList.remove('hidden');
     })
 })
