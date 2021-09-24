@@ -1,7 +1,6 @@
 const modalBtns = document.querySelectorAll('.more');
 const modal = document.querySelector('.modal');
-
-console.log(modal);
+// https://jsonplaceholder.typicode.com
 
 modalBtns.forEach(btn => {
     btn.addEventListener('click', () => {
